@@ -114,6 +114,12 @@ a {
     font-size: 0.85rem;
     opacity: 0.9;
 }
+.box-p2:hover{
+    font-weight: 500;
+    opacity: 1;
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 .badge {
     background-color: white;
@@ -201,6 +207,12 @@ a {
     font-size: 0.85rem;
     opacity: 0.8;
 }
+.card-info:hover{
+    font-weight: 500;
+    opacity: 1;
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 .all {
     display: flex;
@@ -208,13 +220,13 @@ a {
     align-items: center;
 }
 
-p {
+span {
     opacity: 0.7;
     font-size: 0.85rem;
     font-weight: 300;
 }
 
-p:hover {
+span:hover {
     font-weight: 400;
     opacity: 1;
     text-decoration: underline;
@@ -435,6 +447,7 @@ span {
 
 .alb-text:hover {
     text-decoration: underline;
+    font-weight: 500;
 }
 
 .alb-icons {
